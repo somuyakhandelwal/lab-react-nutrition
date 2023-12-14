@@ -1,0 +1,40 @@
+.Container {
+    display: flex;
+}
+.card {
+    width: 800px;
+    background-color: rgba(234, 239, 234, 0.678);
+}
+.media {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
+.content {
+    margin-top: 35px;
+}
+.field-addons {
+    margin-right: 35px;
+    margin-top: 35px;
+    display: flex;
+}
+.input {
+    border-color: black;
+}
+.button-info,
+.button-reset {
+    background-color: black;
+    color: white;
+}
+.button-reset {
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: black;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+}
+  
